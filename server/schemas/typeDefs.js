@@ -1,6 +1,6 @@
-const { me } = require('apollo-server-express');
+const { gql } = require('apollo-server-express');
 
-const typeDefs = me`
+const typeDefs = gql`
   type User {
     _id: ID
     username: String
